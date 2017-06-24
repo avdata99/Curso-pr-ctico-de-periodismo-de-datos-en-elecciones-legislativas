@@ -30,25 +30,6 @@ Visualizar teniendo en cuenta las escuelas y los polígonos usados anteriormente
 Que es un Fraudómetro?
 Graficar un hemiciclo con la representación legislativa.
 
-
-Carta 1998 
-https://www.justiciacordoba.gob.ar/jel/pdf/procesos/1998.12.20%20-%20Carta%20Marina.pdf
-
-Recursos en el poder judicial de Nación sobre CORDOBA
-https://www.pjn.gov.ar/cne/secelec/secciones/otros/otros_view.php?oID=674&dID=4
-Carta Marina Córdoba 2015
-https://www.pjn.gov.ar/cne/secelec/document/otros/4-Carta%20Marina%202015.pdf
-
-Buscando con filetype:xls
-Carta 2007
-http://estadistica.cba.gov.ar/LinkClick.aspx?fileticket=l4QJh-frWJ8%3D&...
-
-Buscando con filetype:csv
-Carta 2015 Cordoba
-https://github.com/OpenDataCordoba/elecciones2015/blob/master/resources/carta-marina/escuelas-elecciones-2015-cordoba.csv
-
-TIP. Si a los link en github de CSVs le agregamos al final de la URL ?raw=true al final hacemos que el archivo se exponga plano.
-[Carta 2015 CSV](https://github.com/OpenDataCordoba/elecciones2015/blob/master/resources/carta-marina/escuelas-elecciones-2015-cordoba.csv?raw=true)
  
 PDF, pasar vía tabula a CSV (Que es un CSV y como se distingue de Excel)
 Geolocalizar en mapa. Agregar tamaño de puntos según cantidad de electores o mesas.
