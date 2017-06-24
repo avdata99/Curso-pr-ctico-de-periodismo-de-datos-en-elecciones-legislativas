@@ -4,6 +4,11 @@
 Identificar, buscar, analizar y visualizar datos de elecciones legislativas.  
 Analizar casos pre y post elección
 
+## Requisitos
+Es necesario tener: 
+ - una cuenta de Gmail o compatible para usar Google Drive, MyMaps y Fusion Tables.
+ - una cuenta en [Carto](https://carto.com/)
+
 ### Datos a conocer y usar
  - Carta marina
  - Polígonos de circuitos electorales
@@ -13,7 +18,7 @@ Analizar casos pre y post elección
 ### Trabajos prácticos
 
 #### Carta Marina
-Pasar la Carta Marina de PDF a Excel o CSV con Tabula PDF.  
+Pasar la Carta Marina de PDF a Excel o CSV con Tabula PDF. [IR](curso/carta-marina-cordoba.md).   
 Geolocalizar escuelas sin coordenadas. Fusion Tables o Carto.  
 Hacer un mapa de las escuelas o instituciones donde se vota.  
 Analisis de las escuelas con mayor y menor cantidad de electores. Sugerencia: Buscar el porque.  
