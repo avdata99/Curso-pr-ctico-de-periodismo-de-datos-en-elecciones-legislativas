@@ -4,10 +4,11 @@
 Identificar, buscar, analizar y visualizar datos de elecciones legislativas.  
 Analizar casos pre y post elección
 
-## Requisitos
+## Requisitos y recomendaciones
 Es necesario tener: 
  - una cuenta de Gmail o compatible para usar Google Drive, MyMaps y Fusion Tables.
  - una cuenta en [Carto](https://carto.com/)
+ - es útil traer descargado [Tabula PDF](http://tabula.technology/)
 
 ### Datos a conocer y usar
  - Carta marina
