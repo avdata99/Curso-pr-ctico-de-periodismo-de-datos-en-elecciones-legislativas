@@ -44,6 +44,7 @@ Para algunos sitios se requiere que todos los datos de una geolocalización este
 ```
 
 Descargar esta planilla como CSV para llevar a alguna plataforma de geolozalización.  
+Descargar trabajo hecho: [csv para geo](../recursos/escuelas-elecciones-2015-cordoba-FINAL-PARA-GEO.csv).  
 
 ### Geolocalizando en Fusion Tables
 
@@ -57,11 +58,23 @@ Descargar esta planilla como CSV para llevar a alguna plataforma de geolozalizac
 </iframe>
 ```
 
+*Problemas*: 
+ - No permite exportar coordenadas
+ - Muy limitada capacidad de estilos según datos.
+ - La herramienta no recibe actualizaciones hace mucho. Pareciera que Google no la va a continuar
+
 ![mapa-fusion](../img/mapa-fusion-tables.png)
 
 ### Geolocalziando con Google MyMaps
 
 [Ver mapa](https://www.google.com/maps/d/view?mid=1zKL3m91IkHFJBXvDcE1kaVQJvfo&ll=-31.861778787428463%2C-63.61520641928098&z=7)
+
+*Pros*: 
+ - Permite iconos variados según algún campo.
+ - La edición colaborativa es muy interesante.
+
+*Problemas*: 
+ - No permite exportar coordenadas.
 
 ![mymaps](../img/mapa-google-mymaps.png)
 
@@ -82,5 +95,20 @@ Código para embeber
     msallowfullscreen>
 </iframe>
 ```
+*Pros*:
+ - Amplias posibilidades para dar estilos a los puntos segun variables.
+ - Si ya se cuentan con las coordenadas es muy potente.
+
+*Problemas*: 
+ - No permite exportar coordenadas.
+ - Servicio de Geolocalización pago. Límite gratuito muy bajo
+
 
 ![mymaps](../img/mapa-carto.png)
+
+## Geolocalizar direcciones es complejo
+
+Para desarrolladores se recomiendan usar los webservices de Google u OpenStreetMaps con scripts que gradualmente releven los datos necesarios.  
+
+Una solución intermedia es usar un script (similar a los macros de Excel) en Google Sheets que permite hasta 1000 Geolocalizaciones por día. Es muy útil y funciona. Más info [aquí](https://www.datavizforall.org/transform/geocode/).  
+
