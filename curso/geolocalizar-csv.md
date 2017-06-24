@@ -58,7 +58,7 @@ Descargar trabajo hecho: [csv para geo](../recursos/escuelas-elecciones-2015-cor
 </iframe>
 ```
 
-*Problemas*: 
+**Problemas**: 
  - No permite exportar coordenadas
  - Muy limitada capacidad de estilos según datos.
  - La herramienta no recibe actualizaciones hace mucho. Pareciera que Google no la va a continuar
@@ -69,11 +69,11 @@ Descargar trabajo hecho: [csv para geo](../recursos/escuelas-elecciones-2015-cor
 
 [Ver mapa](https://www.google.com/maps/d/view?mid=1zKL3m91IkHFJBXvDcE1kaVQJvfo&ll=-31.861778787428463%2C-63.61520641928098&z=7)
 
-*Pros*: 
+**Pros**: 
  - Permite iconos variados según algún campo.
  - La edición colaborativa es muy interesante.
 
-*Problemas*: 
+**Problemas**: 
  - No permite exportar coordenadas.
 
 ![mymaps](../img/mapa-google-mymaps.png)
@@ -95,11 +95,11 @@ Código para embeber
     msallowfullscreen>
 </iframe>
 ```
-*Pros*:
+**Pros**:
  - Amplias posibilidades para dar estilos a los puntos segun variables.
  - Si ya se cuentan con las coordenadas es muy potente.
 
-*Problemas*: 
+**Problemas**: 
  - No permite exportar coordenadas.
  - Servicio de Geolocalización pago. Límite gratuito muy bajo
 
