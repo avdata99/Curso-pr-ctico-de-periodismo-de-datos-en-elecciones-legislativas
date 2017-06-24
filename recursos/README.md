@@ -7,7 +7,8 @@
 
 Carta Marina Córdoba 2015
  - [PDF](https://www.pjn.gov.ar/cne/secelec/document/otros/4-Carta%20Marina%202015.pdf)
- - [GitHub CSV](https://github.com/OpenDataCordoba/elecciones2015/blob/master/resources/carta-marina/escuelas-elecciones-2015-cordoba.csv) - ([RAW CSV](https://github.com/OpenDataCordoba/elecciones2015/blob/master/resources/carta-marina/escuelas-elecciones-2015-cordoba.csv?raw=true))
+ - [GitHub CSV](https://github.com/OpenDataCordoba/elecciones2015/blob/master/resources/carta-marina/escuelas-elecciones-2015-cordoba.csv) - ([RAW CSV](https://github.com/OpenDataCordoba/elecciones2015/blob/master/resources/carta-marina/escuelas-elecciones-2015-cordoba.csv?raw=true) procesado [con python](https://github.com/OpenDataCordoba/elecciones2015/tree/master/resources/carta-marina) ya 
+ que no contiene tablas extraibles)
 
 TIP. Si a los link en github de CSVs le agregamos al final de la URL ?raw=true al final hacemos que el archivo se exponga plano y se puede descargar para reutilizar.  
 
