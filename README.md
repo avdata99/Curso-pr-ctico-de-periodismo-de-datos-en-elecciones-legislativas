@@ -1,2 +1,69 @@
-# Curso-pr-ctico-de-periodismo-de-datos-en-elecciones-legislativas
-Curso práctico de periodismo de datos en elecciones legislativas
+# Curso práctico de periodismo de datos en elecciones legislativas
+ 
+## Objetivo
+Identificar, buscar, analizar y visualizar datos de elecciones legislativas.  
+Analizar casos pre y post elección
+
+### Datos a conocer y usar
+ - Carta marina
+ - Polígonos de circuitos electorales
+ - Lista de legisladores vigentes y nuevos candidatos
+ - Resultados electorales
+
+### Trabajos prácticos
+
+#### Carta Marina
+Pasar la Carta Marina de PDF a Excel o CSV con Tabula PDF.  
+Geolocalizar escuelas sin coordenadas. Fusion Tables o Carto.  
+Hacer un mapa de las escuelas o instituciones donde se vota.  
+Analisis de las escuelas con mayor y menor cantidad de electores. Sugerencia: Buscar el porque.  
+ 
+#### Polígonos de circuitos electorales
+Buscar y visualizar.
+Entender el formato KML y GeoJSON. Google MyMaps. QGis.  
+Cruzar con resultados
+Lista de legisladores vigentes y nuevos candidatos
+Cantidad de disputados en Córdoba. Que se elige y que bancas se renuevan.
+Sistema Dhont y probabilidades según encuestas de bancas a ocupar.
+Resultados de las elecciones
+Visualizar teniendo en cuenta las escuelas y los polígonos usados anteriormente
+Que es un Fraudómetro?
+Graficar un hemiciclo con la representación legislativa.
+
+
+Carta 1998 
+https://www.justiciacordoba.gob.ar/jel/pdf/procesos/1998.12.20%20-%20Carta%20Marina.pdf
+
+Recursos en el poder judicial de Nación sobre CORDOBA
+https://www.pjn.gov.ar/cne/secelec/secciones/otros/otros_view.php?oID=674&dID=4
+Carta Marina Córdoba 2015
+https://www.pjn.gov.ar/cne/secelec/document/otros/4-Carta%20Marina%202015.pdf
+
+Buscando con filetype:xls
+Carta 2007
+http://estadistica.cba.gov.ar/LinkClick.aspx?fileticket=l4QJh-frWJ8%3D&...
+
+Buscando con filetype:csv
+Carta 2015 Cordoba
+https://github.com/OpenDataCordoba/elecciones2015/blob/master/resources/carta-marina/escuelas-elecciones-2015-cordoba.csv
+
+TIP. Si a los link en github de CSVs le agregamos al final de la URL ?raw=true al final hacemos que el archivo se exponga plano.
+[Carta 2015 CSV](https://github.com/OpenDataCordoba/elecciones2015/blob/master/resources/carta-marina/escuelas-elecciones-2015-cordoba.csv?raw=true)
+ 
+PDF, pasar vía tabula a CSV (Que es un CSV y como se distingue de Excel)
+Geolocalizar en mapa. Agregar tamaño de puntos según cantidad de electores o mesas.
+Mapa colaborativo para validar puntos.
+ 
+Polígonos de circuitos electorales
+Donde se consiguen. Para que sirven
+Descargar y pintar polígonos según resultados de elecciones anteriores.
+ 
+Resultados electorales.
+Como se publican?
+ - Hemiciclos y visualizaciones de cuerpos representativos.
+ 
+ 
+Otros recursos
+Democracia con códigos
+http://democraciaconcodigos.github.io/
+Mapa: http://democraciaconcodigos.github.io/election-2013/ 
