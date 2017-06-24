@@ -18,7 +18,7 @@ Es necesario tener:
 ### Trabajos prácticos
 
 #### Carta Marina
-Pasar la Carta Marina de PDF a Excel o CSV con Tabula PDF. [IR](curso/carta-marina-cordoba.md).   
+Pasar la Carta Marina de PDF a Excel o CSV con Tabula PDF. [IR](curso/carta-marina-Cordoba.md).   
 Geolocalizar escuelas sin coordenadas. Fusion Tables o Carto.  
 Hacer un mapa de las escuelas o instituciones donde se vota.  
 Analisis de las escuelas con mayor y menor cantidad de electores. Sugerencia: Buscar el porque.  
