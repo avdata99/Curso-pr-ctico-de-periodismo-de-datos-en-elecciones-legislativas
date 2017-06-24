@@ -5,10 +5,12 @@ Identificar, buscar, analizar y visualizar datos de elecciones legislativas.
 Analizar casos pre y post elección
 
 ## Requisitos y recomendaciones
-Es necesario tener: 
+Es necesario o recomendable tener: 
+ - una conexión a internet decenta ya que habrá muchas tareas online.
  - una cuenta de Gmail o compatible para usar Google Drive, MyMaps y Fusion Tables.
  - una cuenta en [Carto](https://carto.com/)
  - es útil traer descargado [Tabula PDF](http://tabula.technology/)
+ - instalado LibreOffice para proceso de archivos CSV
 
 ### Datos a conocer y usar
  - Carta marina
@@ -20,7 +22,7 @@ Es necesario tener:
 
 #### Carta Marina
 Pasar la Carta Marina de PDF a Excel o CSV con Tabula PDF. [IR](curso/carta-marina-Cordoba.md).   
-Geolocalizar escuelas sin coordenadas. Fusion Tables o Carto.  
+Geolocalizar escuelas sin coordenadas. Fusion Tables o Carto. [IR](curso/geolocalizar-csv.md)  
 Hacer un mapa de las escuelas o instituciones donde se vota.  
 Analisis de las escuelas con mayor y menor cantidad de electores. Sugerencia: Buscar el porque.  
  

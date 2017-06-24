@@ -22,7 +22,13 @@ Como prueba adicional se puede usar el detector automático de tablas en Tabula 
 
 ![prueba2](../img/prueba-2-tabula.png)
 
+Como se ve, la falla es la misma. Este PDF no es procesable de manera que entregue resultados listos para usar. En estos casos las opciones son:
+ - Si el PDF no es muy largo, tomar estos resultados (o copiar el texto del PDF y pasarlos a un editor de texto) para limpiarlos a mano.
+ - Si el PDF es muy largo se puede contar con la colaboración de algún programador que procese automáticamente y obtenga el resultado deseado.
+ - Si se tienen contactos con algún partido político o con funcionarios de la junta electoral se puede solicitar una versión más amigable (Excel, CSV o similares).
 
+En 2015 este problema ya se presentó con esta carta marina, [se resolvió](https://github.com/OpenDataCordoba/elecciones2015/tree/master/resources/carta-marina) y se dejaron liberados los resultados:
 
-[GitHub CSV](https://github.com/OpenDataCordoba/elecciones2015/blob/master/resources/carta-marina/escuelas-elecciones-2015-cordoba.csv) - ([RAW CSV](https://github.com/OpenDataCordoba/elecciones2015/blob/master/resources/carta-marina/escuelas-elecciones-2015-cordoba.csv?raw=true) procesado [con python](https://github.com/OpenDataCordoba/elecciones2015/tree/master/resources/carta-marina) ya 
- que no contiene tablas extraibles)
+[Carta Marina 2015 CSV](https://github.com/OpenDataCordoba/elecciones2015/blob/master/resources/carta-marina/escuelas-elecciones-2015-cordoba.csv?raw=true) ([copia local](../recursos/escuelas-elecciones-2015-cordoba.csv)).  
+
+[PROCESAR ESTE CSV >>](geolocalizar-csv.md) 
