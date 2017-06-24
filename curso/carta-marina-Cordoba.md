@@ -14,7 +14,7 @@ Como primera prueba se puede seleccionar directamente una parte de la tabla para
 
 Luego del proceso se ven los resultados pasados a una tabla de datos reutilizable.  
 
-![intento](../img/primier-intento-tabula.png)
+![intento](../img/primer-intento-tabula.png)
 
 Se ve que no tomo correctamente las celdas como uno podría imaginar. Se requiere que cada dato esté en una celda individual. El que construyo el PDF no lo hizo construyendo una tabla ordenadamente sino que dejo varias líneas de texto en cada _celda_.  
 
