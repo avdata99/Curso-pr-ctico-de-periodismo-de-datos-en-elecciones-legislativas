@@ -112,3 +112,22 @@ Para desarrolladores se recomiendan usar los webservices de Google u OpenStreetM
 
 Una solución intermedia es usar un script (similar a los macros de Excel) en Google Sheets que permite hasta 1000 Geolocalizaciones por día. Es muy útil y funciona. Más info [aquí](https://www.datavizforall.org/transform/geocode/).  
 
+Finalemente de esta forma se pudieron obtener la gran mayoría de las geolocalizaciones.  
+[CSV FINAL CON COORDENADAS](../recursos/escuelas elecciones 2015 cordoba FINAL CON GEO.csv)
+
+Ahora Carto no requiere interferir la geolocalizazión y detecta a la primera las columnas que representan las coordenadas.  
+
+[Ver mapa](https://hudson.carto.com/builder/9f30c071-f758-4286-b408-8f8fa2db5c10/embed).  
+
+Embeber: 
+```
+<iframe width="100%" height="520" 
+    frameborder="0" 
+    src="https://hudson.carto.com/builder/9f30c071-f758-4286-b408-8f8fa2db5c10/embed" 
+    allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen>
+</iframe>
+```
+
+![Mapa OK carto](../img/carto2-ok.png)
+
+Usar este CSV con latitud y longitud incluida agiliza la carga en Google MyMaps o cualquier otra plataforma ya que no será necesario mapear las direcciones.  
