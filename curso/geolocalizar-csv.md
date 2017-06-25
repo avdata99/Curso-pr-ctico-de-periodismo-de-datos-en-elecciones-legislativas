@@ -1,6 +1,6 @@
 # Procesar CSV para Geolocalizar
 
-Tomar el CSV con los datos de la carta marina y subirla a Google Drive.  
+Tomar el CSV con los datos de la carta marina y subirlo a Google Drive.  
 Una vez subido darle click derecho y elegir _abrir con_ y luego _hoja de calculo de Google_.  
 Esto nos dará un entorno de planilla de cálculo online para mejorar los datos antes de su geolocalización.  
 
@@ -15,11 +15,12 @@ Google Sheets (la planilla de cálculo incluida en Google Drive) incluye una her
 
 Como vamos a procesar la columna _Escuela_ no es mala idea hacer una copia de ella para referencias futuras en la medición de la efectividad de los procesos que vamos a usar.  
 
-Hacemos un click en el encabezado de la columna _Escuela_ para seleccionarla. En el menú _datos_ elegimos la opción _dividir texto en columnas_. No ofrecera como _separador_ predeterminado a la coma
+Hacemos un click en el encabezado de la columna _Escuela_ para seleccionarla. En el menú _datos_ elegimos la opción _dividir texto en columnas_. Nos ofrecera como _separador_ predeterminado la coma.  
 
 ![dividir](../img/dividir-texto-en-col.png)
 
-Nosotros cambiamos eso por un separador _personalizado_. Elegimos _" - "_ (espacio, guión, espacio) que es el que detectamos. Se requiere una segunda división sobre la segunda columna resultante ya que algunas dirección es incluyen el barrio (que no ayuda a la geolocalización) con el prefijo _"B°"_. Dividir entonces esta columna con el separador _"B°"_.  
+Nosotros cambiamos eso por un separador _personalizado_. Elegimos _" - "_ (espacio, guión, espacio) que es el que detectamosmirando los datos.  
+Se requiere una segunda división sobre la segunda columna resultante ya que algunas dirección es incluyen el barrio (que no ayuda a la geolocalización) con el prefijo _"B°"_. Dividir entonces esta columna con el separador _"B°"_.  
 
 Agregar en la planilla de cálculo las columnas _Ciudad_, _Provincia_ y _Pais_. A la columna Ciudad igualarla a la columna. Si bien no siembre es necesario la provincia y el país ya que algunos entornos de geolocalización permiten especificarlo nunca está de más.   
 
@@ -47,24 +48,22 @@ Descargar trabajo hecho: [csv para geo](../recursos/escuelas-elecciones-2015-cor
 
 ### Geolocalizando en Fusion Tables
 
-[Ver Mapa](https://fusiontables.google.com/embedviz?q=select+col11+from+1Se7MLXEFxIPOExxpSfEUNoMmY2p3Kh-AV3jWQS-e&viz=MAP&h=false&lat=-32.730273776177484&lng=-61.927968202880834&t=1&z=6&l=col11&y=3&tmplt=5&hml=GEOCODABLE)
+Desde Google Drive se puede crear un nuevo archivo de Fusion Tables. Este requiere que se suba un archivo CSV o directamente se le indique una planilla de Google (la que hicimos recién sirve).  
 
-```
-<iframe width="500" height="300" 
-    scrolling="no" 
-    frameborder="no" 
-    src="https://fusiontables.google.com/embedviz?q=select+col11+from+1Se7MLXEFxIPOExxpSfEUNoMmY2p3Kh-AV3jWQS-e&amp;viz=MAP&amp;h=false&amp;lat=-32.730273776177484&amp;lng=-61.927968202880834&amp;t=1&amp;z=6&amp;l=col11&amp;y=3&amp;tmplt=5&amp;hml=GEOCODABLE">
-</iframe>
-```
+Una vez subido se debe dar click derecho a la columna con todos los datos geográficos juntos (la última que se hizo con la función _contatenate_) para indicar que es de tipo geográfico.  
+Esto hará que se pinte de amarillo y nos permitirá inciar la geolocalización (para estas 1186 escuelas demorará una o más horas).  
+
+Finalmente queda así: [Ver Mapa](https://fusiontables.google.com/embedviz?q=select+col11+from+1Se7MLXEFxIPOExxpSfEUNoMmY2p3Kh-AV3jWQS-e&viz=MAP&h=false&lat=-32.730273776177484&lng=-61.927968202880834&t=1&z=6&l=col11&y=3&tmplt=5&hml=GEOCODABLE).  
+
+![mapa-fusion](../img/mapa-fusion-tables.png)
 
 **Problemas**: 
  - No permite exportar coordenadas
  - Muy limitada capacidad de estilos según datos.
  - La herramienta no recibe actualizaciones hace mucho. Pareciera que Google no la va a continuar
 
-![mapa-fusion](../img/mapa-fusion-tables.png)
 
-### Geolocalziando con Google MyMaps
+### Geolocalizando con Google MyMaps
 
 [Ver mapa](https://www.google.com/maps/d/view?mid=1zKL3m91IkHFJBXvDcE1kaVQJvfo&ll=-31.861778787428463%2C-63.61520641928098&z=7)
 
