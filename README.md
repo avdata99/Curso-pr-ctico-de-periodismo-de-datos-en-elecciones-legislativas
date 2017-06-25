@@ -57,7 +57,3 @@ Como se publican?
  - Hemiciclos y visualizaciones de cuerpos representativos.
  
  
-### Otros recursos
-Democracia con códigos  
-http://democraciaconcodigos.github.io/  
-Mapa: http://democraciaconcodigos.github.io/election-2013/  

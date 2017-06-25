@@ -57,6 +57,10 @@ Finalmente queda así: [Ver Mapa](https://fusiontables.google.com/embedviz?q=sel
 
 ![mapa-fusion](../img/mapa-fusion-tables.png)
 
+**Pros**:
+ - Permite otros tipos de gráficos además de mapas.
+ - Estos gráficos se pueden publicar y embeber en ortos sitios. 
+  
 **Problemas**: 
  - No permite exportar coordenadas
  - Muy limitada capacidad de estilos según datos.
@@ -65,51 +69,45 @@ Finalmente queda así: [Ver Mapa](https://fusiontables.google.com/embedviz?q=sel
 
 ### Geolocalizando con Google MyMaps
 
-[Ver mapa](https://www.google.com/maps/d/view?mid=1zKL3m91IkHFJBXvDcE1kaVQJvfo&ll=-31.861778787428463%2C-63.61520641928098&z=7)
+Con [Google MyMpas](https://www.google.com/maps/d/) se pueden construir mapas gráficamente superadores de Fusion Tables y el entorno colaborativo es interesante (con la misma lógica que Google Drive).  
+
+Al igual que Fusion Tables permite GeoLocalización automática sin coordenadas y solo con datos de texto. La geolocalización aparenta ser bastante más rápida que Fusion Tables.  
+
+Finalmente queda así: [Ver mapa](https://www.google.com/maps/d/view?mid=1zKL3m91IkHFJBXvDcE1kaVQJvfo&ll=-31.861778787428463%2C-63.61520641928098&z=7)
+
+![mymaps](../img/mapa-google-mymaps.png)
 
 **Pros**: 
  - Permite iconos variados según algún campo.
  - La edición colaborativa es muy interesante.
+ - Permite múltiples capas de datos geográficos.
 
 **Problemas**: 
  - No permite exportar coordenadas.
 
-![mymaps](../img/mapa-google-mymaps.png)
 
 ### Geolocalizando en CartoDB
 
-[Ver mapa](https://hudson.carto.com/builder/170fae5b-d302-4482-aa4d-13b67df9209b/embed)
-Código para embeber
-```
-<iframe 
-    width="100%" 
-    height="520" 
-    frameborder="0" 
-    src="https://hudson.carto.com/builder/170fae5b-d302-4482-aa4d-13b67df9209b/embed" 
-    allowfullscreen 
-    webkitallowfullscreen 
-    mozallowfullscreen 
-    oallowfullscreen 
-    msallowfullscreen>
-</iframe>
-```
-**Pros**:
- - Amplias posibilidades para dar estilos a los puntos segun variables.
- - Si ya se cuentan con las coordenadas es muy potente.
+Carto genera mapas más elegantes y mucho más potentes a la hora de dar estilos por valores de la tabla. Permite trabajar gratis con un límite interesante en general pero mas limitado en lo que hace a la geo referenciación. Teniendo las coordenadas (que aún no tenemos ni pudimos exportar de las otras dos plataformas) es la solución mas completa para visualizar mapas de este tipo.  
 
-**Problemas**: 
- - Servicio de Geolocalización pago. Límite gratuito muy bajo
-
+Finalmente queda así: [Ver mapa](https://hudson.carto.com/builder/170fae5b-d302-4482-aa4d-13b67df9209b/embed)
 
 ![mymaps](../img/mapa-carto.png)
 
-## Geolocalizar direcciones es complejo
+**Pros**:
+ - Amplias posibilidades para dar estilos a los puntos segun variables.
+ - Si ya se cuentan con las coordenadas es muy potente.
+ - Permite múltiples capas de datos geográficos.
 
-Para desarrolladores se recomiendan usar los webservices de Google u OpenStreetMaps con scripts que gradualmente releven los datos necesarios.  
+**Problemas**: 
+ - Servicio de Geolocalización pago. Límite gratuito muy bajo.
+ - La geolocalización funcionó muy pobremente a pesar del límite. 
+
+
+## Geolocalizar con el API de Google sin ser desarrollador
 
 Una solución intermedia es usar un script (similar a los macros de Excel) en Google Sheets que permite hasta 1000 Geolocalizaciones por día. Es muy útil y funciona. Más info [aquí](https://www.datavizforall.org/transform/geocode/).  
-
-Básicamente este metodo es un pequeño programa que se puede anexar a cualquier planilla de Google Drive. Para agregarlo desde el menú _Herramientas_ se elige _Editor de secuencia de comandos_ y se copia el siguiente texto.    
+Este metodo es un pequeño programa que se puede anexar a cualquier planilla de Google Drive. Para agregarlo desde el menú _Herramientas_ se elige _Editor de secuencia de comandos_ y se copia el siguiente texto.    
 
 ```
 var ui = SpreadsheetApp.getUi();
@@ -294,21 +292,22 @@ function onOpen() {
 }
 ```
 
-Se requieren cinco columnas en blanco a la derecha de la que incluye nuestro campo completo (direccion, ciudad, provincia, país) ya que este programa completara además de la latitud y la longitud algunos datos útiles más.  
+Una vez grabado, aparecerá un nuevo menú en la planilla de Google.  
+Para usar este nuevo menú se requieren cinco columnas en blanco a la derecha de la que incluye nuestro campo completo (direccion, ciudad, provincia, país) ya que este programa completará en esos espacios. Además de la latitud y la longitud se entregan algunos datos útiles más.  
 
 ![gf](/img/google-sheets-geocoder-census-geographies.gif)
 
-Otra posibilidad con mayor complejidad técnica es seguir los pasos que describió Manuel Aristarán para cruzar estos datos con la base de datos de escuelas argentinas realizada en 2013. Con esta aplicación [Donde voto?](https://github.com/jazzido/dondevoto) es posible hacer match entre los nombres de las escuelas oficiales y los establecimientos de una carta marina. Si bien no es perfecto supera la efectividad en la geolocalización de otros métodos.  
-En base a este trabajo quedo disponible tambien [otro resumen de datos de las escuelas argentinas](https://github.com/avdata99/escuelas-argentinas) con mapas incluidos.  
-
+La efectividad no es excelente pero es bastante buena. En los casos en que no es exacta, lo indica. De esta forma se puede entonces pasar por un proceso manual solo para los casos en los que sea necesario.  
 Finalemente de esta forma se pudieron obtener la gran mayoría de las geolocalizaciones.  
 [CSV FINAL CON COORDENADAS](../recursos/escuelas-elecciones-2015-cordoba-FINAL-CON-GEO.csv)
 
-Ahora Carto no requiere interferir la geolocalizazión y detecta a la primera las columnas que representan las coordenadas.  
+Ahora Carto no requiere interferir la geolocalizazión y detecta a la primera las columnas que representan las coordenadas. Con este archivo se puede hacer un nuevo mapa en Carto con resultados muy superiores.  
 
-[Ver mapa](https://hudson.carto.com/builder/9f30c071-f758-4286-b408-8f8fa2db5c10/embed).  
+Finalmente queda así: [Ver mapa](https://hudson.carto.com/builder/9f30c071-f758-4286-b408-8f8fa2db5c10/embed).  
 
-Embeber: 
+![Mapa OK carto](../img/carto2-ok.png)
+
+Código para embeber:  
 ```
 <iframe width="100%" height="520" 
     frameborder="0" 
@@ -317,6 +316,17 @@ Embeber:
 </iframe>
 ```
 
-![Mapa OK carto](../img/carto2-ok.png)
-
 Usar este CSV con latitud y longitud incluida agiliza la carga en Google MyMaps o cualquier otra plataforma ya que no será necesario mapear las direcciones.  
+
+
+## Geolocalizar direcciones es complejo
+
+Para desarrolladores se recomiendan usar los webservices de Google u OpenStreetMaps con scripts que gradualmente releven los datos necesarios.  
+
+Otra posibilidad con mayor complejidad técnica es seguir los pasos que describió Manuel Aristarán para cruzar estos datos con la base de datos de escuelas argentinas realizada en 2013. Con esta aplicación [Donde voto?](https://github.com/jazzido/dondevoto) es posible hacer match entre los nombres de las escuelas oficiales y los establecimientos de una carta marina. Si bien no es perfecto supera la efectividad en la geolocalización de otros métodos.  
+En base a este trabajo quedo disponible tambien [otro resumen de datos de las escuelas argentinas](https://github.com/avdata99/escuelas-argentinas) con mapas incluidos.  
+
+Un caso muy interesante con un producto similar al buscado aquí se hizo para las elecciones 2013 en Córdoba. Se realizó durante un hackathon y se llamó Democracia con códigos.    
+Se puede ver el código abierto [aquí](http://democraciaconcodigos.github.io/) y el mapa [aquí](http://democraciaconcodigos.github.io/election-2013/).  
+
+![democracia-con-codigos](../img/democracia-con-codigos.png)  
