@@ -8,7 +8,7 @@ Analizar casos pre y post elección
 
 Un mapa de escuelas y electores en cada una
 
-![Mapa OK carto](../img/carto2-ok.png)
+![Mapa OK carto](img/carto2-ok.png)
 
 
 ## Requisitos y recomendaciones
