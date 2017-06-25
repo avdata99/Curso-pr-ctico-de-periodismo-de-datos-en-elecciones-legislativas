@@ -13,12 +13,11 @@ Un mapa de escuelas y electores en cada una
 
 ## Requisitos y recomendaciones
 Es necesario o recomendable tener: 
- - una conexión a internet decenta ya que habrá muchas tareas online.
+ - una conexión a internet decente ya que habrá muchas tareas online.
  - una cuenta de Gmail o compatible para usar Google Drive, MyMaps y Fusion Tables.
- - una cuenta en [Carto](https://carto.com/)
+ - una cuenta en [Carto](https://carto.com/) (es gratuita)
  - es útil traer descargado [Tabula PDF](http://tabula.technology/)
- - instalado LibreOffice para proceso de archivos CSV
-
+ 
 ### Datos a conocer y usar
  - Carta marina
  - Polígonos de circuitos electorales
@@ -29,8 +28,7 @@ Es necesario o recomendable tener:
 
 #### Carta Marina
 Pasar la Carta Marina de PDF a Excel o CSV con Tabula PDF. [IR](curso/carta-marina-Cordoba.md).   
-Geolocalizar escuelas sin coordenadas. Fusion Tables o Carto. [IR](curso/geolocalizar-csv.md)  
-Hacer un mapa de las escuelas o instituciones donde se vota.  
+Geolocalizar escuelas sin coordenadas. Fusion Tables, MyMaps Carto. [IR](curso/geolocalizar-csv.md)  
 Analisis de las escuelas con mayor y menor cantidad de electores. Sugerencia: Buscar el porque.  
  
 #### Polígonos de circuitos electorales
