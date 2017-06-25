@@ -297,7 +297,7 @@ function onOpen() {
 
 Se requieren cinco columnas en blanco a la derecha de la que incluye nuestro campo completo (direccion, ciudad, provincia, país) ya que este programa completara además de la latitud y la longitud algunos datos útiles más.  
 
-![gf](https://github.com/JackDougherty/google-sheets-geocoder/blob/master/google-sheets-geocoder-census-geographies.gif?raw=true)
+![gf](/img/google-sheets-geocoder-census-geographies.gif)
 
 Finalemente de esta forma se pudieron obtener la gran mayoría de las geolocalizaciones.  
 [CSV FINAL CON COORDENADAS](../recursos/escuelas-elecciones-2015-cordoba-FINAL-CON-GEO.csv)
