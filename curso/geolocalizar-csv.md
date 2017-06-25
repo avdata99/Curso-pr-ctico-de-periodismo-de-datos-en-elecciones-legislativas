@@ -110,7 +110,7 @@ Para desarrolladores se recomiendan usar los webservices de Google u OpenStreetM
 
 Una solución intermedia es usar un script (similar a los macros de Excel) en Google Sheets que permite hasta 1000 Geolocalizaciones por día. Es muy útil y funciona. Más info [aquí](https://www.datavizforall.org/transform/geocode/).  
 
-Básicamente este metodo es un pequeño programa que se puede anexar a cualquier planilla de Google Drive. Para agregarlo desde el menú _Herramientas_ se elige _Editor de secuencia de comandos_ y se copia el siguiente texto.  
+Básicamente este metodo es un pequeño programa que se puede anexar a cualquier planilla de Google Drive. Para agregarlo desde el menú _Herramientas_ se elige _Editor de secuencia de comandos_ y se copia el siguiente texto.    
 
 ```
 var ui = SpreadsheetApp.getUi();
@@ -298,6 +298,9 @@ function onOpen() {
 Se requieren cinco columnas en blanco a la derecha de la que incluye nuestro campo completo (direccion, ciudad, provincia, país) ya que este programa completara además de la latitud y la longitud algunos datos útiles más.  
 
 ![gf](/img/google-sheets-geocoder-census-geographies.gif)
+
+Otra posibilidad con mayor complejidad técnica es seguir los pasos que describió Manuel Aristarán para cruzar estos datos con la base de datos de escuelas argentinas realizada en 2013. Con esta aplicación [Donde voto?](https://github.com/jazzido/dondevoto) es posible hacer match entre los nombres de las escuelas oficiales y los establecimientos de una carta marina. Si bien no es perfecto supera la efectividad en la geolocalización de otros métodos.  
+En base a este trabajo quedo disponible tambien [otro resumen de datos de las escuelas argentinas](https://github.com/avdata99/escuelas-argentinas) con mapas incluidos.  
 
 Finalemente de esta forma se pudieron obtener la gran mayoría de las geolocalizaciones.  
 [CSV FINAL CON COORDENADAS](../recursos/escuelas-elecciones-2015-cordoba-FINAL-CON-GEO.csv)
