@@ -4,6 +4,13 @@
 Identificar, buscar, analizar y visualizar datos de elecciones legislativas.  
 Analizar casos pre y post elección
 
+## Resultados esperados
+
+Un mapa de escuelas y electores en cada una
+
+![Mapa OK carto](../img/carto2-ok.png)
+
+
 ## Requisitos y recomendaciones
 Es necesario o recomendable tener: 
  - una conexión a internet decenta ya que habrá muchas tareas online.
