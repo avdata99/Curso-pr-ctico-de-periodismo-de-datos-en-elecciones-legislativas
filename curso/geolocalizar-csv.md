@@ -120,6 +120,9 @@ La efectividad no es excelente pero es bastante buena. En los casos en que no es
 Finalemente de esta forma se pudieron obtener la gran mayoría de las geolocalizaciones.  
 [CSV FINAL CON COORDENADAS](../recursos/escuelas-elecciones-2015-cordoba-FINAL-CON-GEO.csv).  
 
+Antes de descargar el archivo asegurarse de usar la configuración regional de _Estados Unidos_ ya que CartoDB _prefiere_ los numeros con separación decimal de punto. Para esto en la planilla de Google Drive se va al menú _Archivo_ -> _Configuración del documento_.  
+Es importante conocer cuales son las diferencias en la configuraciones regionales ya que son motivo de numerosos dolores de cabeza.  
+
 Ahora Carto no requiere interferir la geolocalizazión y detecta a la primera las columnas que representan las coordenadas. Con este archivo se puede hacer un nuevo mapa en Carto con resultados muy superiores.  
 
 Finalmente queda así: [Ver mapa](https://hudson.carto.com/builder/9f30c071-f758-4286-b408-8f8fa2db5c10/embed).  
