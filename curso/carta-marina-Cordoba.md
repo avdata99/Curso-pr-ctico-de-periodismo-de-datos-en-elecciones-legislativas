@@ -2,6 +2,16 @@
 
 Una búsqueda en Google dará con una lista de [recursos en el poder judicial de Nación sobre CORDOBA](https://www.pjn.gov.ar/cne/secelec/secciones/otros/otros_view.php?oID=674&dID=4). Hay de todas las provincias. Lamentablemente son PDFs difíciles de procesar en general.  
 
+### Tip de búsqueda
+
+Si se busca _"Carta Marina" Córdoba_ y se agrega además:  
+ - _filety:pdf_
+ - _filety:csv_
+ - _filety:xls_
+
+Los resultados cambian sensiblemente. Google no sabe que tipo de archivos buscamos.
+Notar las diferencias entre PDF, Excel y CSV.  
+
 Allí se encuentra la [Carta Marina Córdoba 2015 en PDF](https://www.pjn.gov.ar/cne/secelec/document/otros/4-Carta%20Marina%202015.pdf).  
 
 ![carta](../img/carta-marina-pdf.png)
@@ -30,5 +40,9 @@ Como se ve, la falla es la misma. Este PDF no es procesable de manera que entreg
 En 2015 este problema ya se presentó con esta carta marina, [se resolvió](https://github.com/OpenDataCordoba/elecciones2015/tree/master/resources/carta-marina) y se dejaron liberados los resultados:
 
 [Carta Marina 2015 CSV](https://github.com/OpenDataCordoba/elecciones2015/blob/master/resources/carta-marina/escuelas-elecciones-2015-cordoba.csv?raw=true) ([copia local](../recursos/escuelas-elecciones-2015-cordoba.csv)).  
+
+A los fines de usar Tabula en casos efectivos pueden tomarse dos ejemplos relacionados en casos donde el PDF si se puede transformar:
+ - [NÓMINA DE AUTORIDADES DE MESA -ELECCIONES BALOTAJE 2015](https://www.pjn.gov.ar/cne/secelec/document/otros/4-04_web_am181115_20h40m.pdf)
+ - [Integración de Alianzas 2015](https://www.pjn.gov.ar/cne/secelec/document/otros/4-INTEGRACION%20DE%20ALIANZAS%202015%20ELECCIONES%20PASO.pdf)
 
 [PROCESAR ESTE CSV >>](geolocalizar-csv.md) 
