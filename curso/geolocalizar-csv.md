@@ -108,16 +108,17 @@ Finalmente queda así: [Ver mapa](https://hudson.carto.com/builder/170fae5b-d302
 
 Una solución intermedia es usar un script (similar a los macros de Excel) en Google Sheets que permite hasta 1000 Geolocalizaciones por día. Es muy útil y funciona. Más info [aquí](https://www.datavizforall.org/transform/geocode/).  
 Este metodo es un pequeño programa que se puede anexar a cualquier planilla de Google Drive. Para agregarlo desde el menú _Herramientas_ se elige _Editor de secuencia de comandos_ y se copia el texto del archivo geolocalizar.gs del [repositorio de la Municipalidad de Córdoba](https://github.com/ModernizacionMuniCBA/muni-google-util-app-scripts/tree/master/geolocalizar%20desde%20direccion).  
+Puede copiarse directamente desde [aquí](https://raw.githubusercontent.com/ModernizacionMuniCBA/muni-google-util-app-scripts/master/geolocalizar%20desde%20direccion/geolocalizar.gs).  
 
 
 Una vez grabado, aparecerá un nuevo menú en la planilla de Google.  
 Para usar este nuevo menú se requieren cinco columnas en blanco a la derecha de la que incluye nuestro campo completo (direccion, ciudad, provincia, país) ya que este programa completará en esos espacios. Además de la latitud y la longitud se entregan algunos datos útiles más.  
 
-![gf](/img/google-sheets-geocoder-census-geographies.gif)
+![gf](../img/google-sheets-geocoder-census-geographies.gif)
 
 La efectividad no es excelente pero es bastante buena. En los casos en que no es exacta, lo indica. De esta forma se puede entonces pasar por un proceso manual solo para los casos en los que sea necesario.  
 Finalemente de esta forma se pudieron obtener la gran mayoría de las geolocalizaciones.  
-[CSV FINAL CON COORDENADAS](../recursos/escuelas-elecciones-2015-cordoba-FINAL-CON-GEO.csv)
+[CSV FINAL CON COORDENADAS](../recursos/escuelas-elecciones-2015-cordoba-FINAL-CON-GEO.csv).  
 
 Ahora Carto no requiere interferir la geolocalizazión y detecta a la primera las columnas que representan las coordenadas. Con este archivo se puede hacer un nuevo mapa en Carto con resultados muy superiores.  
 
