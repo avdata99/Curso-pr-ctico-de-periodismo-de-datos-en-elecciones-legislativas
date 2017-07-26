@@ -11,7 +11,7 @@ Nótese que una de las columnas incluye más de un dato. Esto es un _error_ (a v
  - La dirección de la escuela
  - En algunos casos el barrio
 
-Google Sheets (la planilla de cálculo incluida en Google Drive) incluye una herramienta para estos casos. Excel y LibreOffice seguramente ofrecen posibilidades similares en este sentido.  
+Google Sheets (la planilla de cálculo incluida en Google Drive) incluye una herramienta para estos casos. Excel y LibreOffice ofrecen posibilidades similares en este sentido.  
 
 Como vamos a procesar la columna _Escuela_ no es mala idea hacer una copia de ella para referencias futuras en la medición de la efectividad de los procesos que vamos a usar.  
 
