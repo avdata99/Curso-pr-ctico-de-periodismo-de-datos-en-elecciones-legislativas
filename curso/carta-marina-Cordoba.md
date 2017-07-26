@@ -4,13 +4,13 @@ Una búsqueda en Google dará con una lista de [recursos en el poder judicial de
 
 ### Tip de búsqueda
 
-Si se busca _"Carta Marina" Córdoba_ y se agrega además:  
+Si se busca _"Carta Marina" Córdoba_ y se agrega además ...  
  - _filetype:pdf_: Solo archivos PDF
  - _filetype:csv_: Solo archivos CSV
  - _filetype:xls_: Solo archivos de Excel
  - _site:gov.ar_: Solo sitios de Gobierno en Argentina (sumar el nuevo gob.ar)
 
-Los resultados cambian sensiblemente. Google no sabe que tipo de archivos buscamos.
+ ... los resultados cambian sensiblemente. Google no sabe que tipo de archivos buscamos y si solo queremos algunos sitios específicamente (en este caso, datos oficiales de gobierno).  
 Notar las diferencias entre PDF, Excel y CSV.  
 
 Allí se encuentra la [Carta Marina Córdoba 2015 en PDF](https://www.pjn.gov.ar/cne/secelec/document/otros/4-Carta%20Marina%202015.pdf).  
