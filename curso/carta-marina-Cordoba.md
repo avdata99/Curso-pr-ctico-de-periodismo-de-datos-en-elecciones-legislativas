@@ -5,9 +5,9 @@ Una búsqueda en Google dará con una lista de [recursos en el poder judicial de
 ### Tip de búsqueda
 
 Si se busca _"Carta Marina" Córdoba_ y se agrega además:  
- - _filety:pdf_
- - _filety:csv_
- - _filety:xls_
+ - _filetype:pdf_
+ - _filetype:csv_
+ - _filetype:xls_
 
 Los resultados cambian sensiblemente. Google no sabe que tipo de archivos buscamos.
 Notar las diferencias entre PDF, Excel y CSV.  
