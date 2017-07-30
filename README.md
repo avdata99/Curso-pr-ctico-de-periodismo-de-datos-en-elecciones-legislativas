@@ -16,7 +16,7 @@ Es necesario o recomendable tener:
  - una conexión a internet decente ya que habrá muchas tareas online.
  - una cuenta de Gmail o compatible para usar Google Drive, MyMaps y Fusion Tables.
  - una cuenta en [Carto](https://carto.com/) (es gratuita)
- - es útil traer descargado [Tabula PDF](http://tabula.technology/)
+ - es útil traer descargado e instalado [Tabula PDF](http://tabula.technology/)
  
 ### Datos a conocer y usar
  - Carta marina
