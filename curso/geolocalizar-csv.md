@@ -139,7 +139,7 @@ Código para embeber:
 Usar este CSV con latitud y longitud incluida agiliza la carga en Google MyMaps o cualquier otra plataforma ya que no será necesario mapear las direcciones.  
 
 
-## Geolocalizar direcciones es complejo
+### Geolocalizar direcciones es complejo
 
 Para desarrolladores se recomiendan usar los webservices de Google u OpenStreetMaps con scripts que gradualmente releven los datos necesarios.  
 

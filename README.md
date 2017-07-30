@@ -24,7 +24,7 @@ Es necesario o recomendable tener:
  - PENDIENTE. Analisis de las escuelas con mayor y menor cantidad de electores. Sugerencia: Buscar el porque.
  - [IR](curso/geolocalizar-csv.md). Geolocalizar escuelas sin coordenadas. Fusion Tables, MyMaps Carto.
 
- #### Otros recursos geográficos
+#### Otros recursos geográficos
  - PENDIENTE. Buscar y visualizar polígonos de circuitos electorales
  - PENDIENTE. Formatos geo: KML, CSV WKT, SHP. Transformar con QGis.  
 
