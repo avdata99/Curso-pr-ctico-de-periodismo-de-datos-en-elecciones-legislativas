@@ -3,3 +3,12 @@ theme: jekyll-theme-slate
 title: Periodismo de datos
 description: Práctico sobre legislativas 2017.
 author: Andrés Vázquez
+
+gems:
+  - jekyll-default-layout
+  - jekyll-feed
+  - jekyll-optional-front-matter
+  - jekyll-paginate
+  - jekyll-redirect-from
+  - jekyll-relative-links
+  - jekyll-sitemap
