@@ -1,4 +1,6 @@
-## Publicar tablas y gráficos desde Google Drive
+## Publicar tablas y gráficos 
+
+### Desde Google Drive
 
 Las planillas de cálculo locales (Excel o Open/LibreOffice) permiten siempre hacer gráficos. Por su naturaleza on-line, las planillas en Google Drive permiten además publicar el gráfico en una URL fija en internet.  
 
@@ -43,6 +45,21 @@ Gráfico de barras
 
 ![grafico-barras](../img/grafico-barras.png)
 
-#### Sugerencia periodística 
+#### Sugerencia periodística sobre estos datos
  - Buscar el porque de la cantidad de electores muy superior en algunas escuelas.
  - Ver escuelas que más cambiaron de electores entres dos elecciones
+
+### Con DataStudio
+
+Con [DataStudio](https://datastudio.google.com) de Google tambien es posible conectar recursos de datos variados (archivos CSV, spreadsheets de Google y muchos otros).  
+
+![barras-con-datastudio](../img/barras-con-datastudio.png)
+
+DataStudio permite combinar fuentes de datos y trabajar un poco más cómodamente que google Spreadsheets
+
+![dispersion-escuelas](../img/dispersion-escuelas.png)
+
+Se puede ver online [aquí](https://datastudio.google.com/reporting/0B9saNutQ5ZYhZlpvYXQ2X1JIMVk/page/X7qG).  
+#### Pros y Contras
+Los gráficos de Google Spreadsheets son mejores para embeber, los de DataStudio son mejores para compartir como links externos.  
+
