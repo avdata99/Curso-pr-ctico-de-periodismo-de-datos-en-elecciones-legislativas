@@ -1,7 +1,3 @@
----
-title: Periodismo de datos en elecciones legislativas
-layout: post
----
 # Recursos y ejemplos
 
 Un caso muy interesante con un producto similar al buscado aquí se hizo para las elecciones 2013 en Córdoba. Se realizó durante un hackathon orgnizado por [OpenDataCordoba](http://www.opendatacordoba.org/) y se llamó Democracia con códigos.    
