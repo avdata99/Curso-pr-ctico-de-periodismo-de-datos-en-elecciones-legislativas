@@ -3,7 +3,6 @@
 Tomar el CSV con los datos de la carta marina y subirlo a Google Drive.  
 Una vez subido darle click derecho y elegir _abrir con_ y luego _hoja de calculo de Google_.  
 Esto nos dará un entorno de planilla de cálculo online para mejorar los datos antes de su geolocalización.  
-
 ![csv en drive](../img/csv-en-gdrive.png)
 
 Nótese que una de las columnas incluye más de un dato. Esto es un _error_ (a veces intencional) que dificulta el análisis de datos. La columna _Escuela_ incluye:
@@ -109,7 +108,6 @@ Finalmente queda así: [Ver mapa](https://hudson.carto.com/builder/170fae5b-d302
 Una solución intermedia es usar un script (similar a los macros de Excel) en Google Sheets que permite hasta 1000 Geolocalizaciones por día. Es muy útil y funciona. Más info [aquí](https://www.datavizforall.org/transform/geocode/).  
 Este metodo es un pequeño programa que se puede anexar a cualquier planilla de Google Drive. Para agregarlo desde el menú _Herramientas_ se elige _Editor de secuencia de comandos_ y se copia el texto del archivo geolocalizar.gs del [repositorio de la Municipalidad de Córdoba](https://github.com/ModernizacionMuniCBA/muni-google-util-app-scripts/tree/master/geolocalizar%20desde%20direccion).  
 Puede copiarse directamente desde [aquí](https://raw.githubusercontent.com/ModernizacionMuniCBA/muni-google-util-app-scripts/master/geolocalizar%20desde%20direccion/geolocalizar.gs).  
-
 
 Una vez grabado, aparecerá un nuevo menú en la planilla de Google.  
 Para usar este nuevo menú se requieren cinco columnas en blanco a la derecha de la que incluye nuestro campo completo (direccion, ciudad, provincia, país) ya que este programa completará en esos espacios. Además de la latitud y la longitud se entregan algunos datos útiles más.  
