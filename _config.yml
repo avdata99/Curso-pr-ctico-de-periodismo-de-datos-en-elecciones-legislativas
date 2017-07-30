@@ -1,4 +1,5 @@
 theme: jekyll-theme-slate
 title: Periodismo de datos
-description: Práctico sobre legislativas 2017.
-author: Andrés Vázquez
+encoding: "utf-8"
+markdown_ext: "markdown,mkdown,mkdn,mkd,md"
+strict_front_matter: false
