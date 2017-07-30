@@ -21,7 +21,7 @@ Es necesario o recomendable tener:
 
 #### Carta Marina
  - [IR](curso/carta-marina-Cordoba.md). Pasar la Carta Marina de PDF a Excel o CSV con Tabula PDF.   
- - PENDIENTE. Analisis de las escuelas con mayor y menor cantidad de electores. Sugerencia: Buscar el porque.
+ - [IR](curso/publicar-tablas-y-graficos.md). Publicar tablas y gráficos. Ejemplo sobre analisis de las escuelas con mayor y menor cantidad de electores. 
  - [IR](curso/geolocalizar-csv.md). Geolocalizar escuelas sin coordenadas. Fusion Tables, MyMaps Carto.
 
 #### Otros recursos geográficos
