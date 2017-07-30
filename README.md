@@ -1,3 +1,7 @@
+---
+title: Periodismo de datos en elecciones legislativas
+layout: post
+---
 ## Objetivo
 Identificar, buscar, analizar y visualizar datos de elecciones legislativas.  
 Analizar casos pre y post elección.  

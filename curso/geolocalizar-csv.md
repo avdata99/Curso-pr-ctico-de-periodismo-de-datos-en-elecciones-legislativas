@@ -1,3 +1,7 @@
+---
+title: Periodismo de datos en elecciones legislativas
+layout: post
+---
 # Procesar CSV para Geolocalizar
 
 Tomar el CSV con los datos de la carta marina y subirlo a Google Drive.  

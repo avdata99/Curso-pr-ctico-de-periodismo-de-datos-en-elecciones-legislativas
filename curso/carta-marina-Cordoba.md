@@ -1,3 +1,7 @@
+---
+title: Periodismo de datos en elecciones legislativas
+layout: post
+---
 # Procesar la carta marina Córdoba 2015
 
 Una búsqueda en Google dará con una lista de [recursos en el poder judicial de Nación sobre CORDOBA](https://www.pjn.gov.ar/cne/secelec/secciones/otros/otros_view.php?oID=674&dID=4). Hay de todas las provincias. Lamentablemente son PDFs difíciles de procesar en general.  
