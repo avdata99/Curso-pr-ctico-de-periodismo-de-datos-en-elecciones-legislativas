@@ -1,15 +1,12 @@
-# Curso práctico de periodismo de datos en elecciones legislativas
- 
 ## Objetivo
 Identificar, buscar, analizar y visualizar datos de elecciones legislativas.  
-Analizar casos pre y post elección
+Analizar casos pre y post elección.  
 
 ## Resultados esperados
 
 Un mapa de escuelas y electores en cada una
 
 ![Mapa OK carto](img/carto2-ok.png)
-
 
 ## Requisitos y recomendaciones
 Es necesario o recomendable tener: 
@@ -24,7 +21,7 @@ Es necesario o recomendable tener:
  - Lista de legisladores vigentes y nuevos candidatos
  - Resultados electorales
 
-### Trabajos prácticos
+### Índice de trabajos prácticos
 
 #### Carta Marina
 Pasar la Carta Marina de PDF a Excel o CSV con Tabula PDF. [IR](curso/carta-marina-Cordoba.md).   

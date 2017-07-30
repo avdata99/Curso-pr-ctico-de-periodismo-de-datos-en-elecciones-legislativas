@@ -8,10 +8,11 @@ Si se busca _"Carta Marina" Córdoba_ y se agrega además ...
  - _filetype:pdf_: Solo archivos PDF
  - _filetype:csv_: Solo archivos CSV
  - _filetype:xls_: Solo archivos de Excel
- - _site:gov.ar_: Solo sitios de Gobierno en Argentina (sumar el nuevo gob.ar)
+ - _site:gov.ar_: Solo sitios de Gobierno en Argentina (sumar además el nuevo gob.ar)
 
  ... los resultados cambian sensiblemente. Google no sabe que tipo de archivos buscamos y si solo queremos algunos sitios específicamente (en este caso, datos oficiales de gobierno).  
-Notar las diferencias entre PDF, Excel y CSV.  
+
+[Ver diferencias entre PDF, Excel y CSV](formatos-de-archivo.md).  
 
 Allí se encuentra la [Carta Marina Córdoba 2015 en PDF](https://www.pjn.gov.ar/cne/secelec/document/otros/4-Carta%20Marina%202015.pdf).  
 
