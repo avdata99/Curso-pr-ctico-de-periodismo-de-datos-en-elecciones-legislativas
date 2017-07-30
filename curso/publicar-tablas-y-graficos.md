@@ -33,7 +33,15 @@ Finalmente conviene aislar este gráfico a una hoja nueva por prolijidad.
 
  ![publicar-tabla](../img/publicar-tabla.png)
 
+El [link recibido](https://docs.google.com/spreadsheets/d/1CMHGvGB59HitcdHfdK_Uj6lU2G3_muC44L_pKoHNqOc/pubchart?oid=988967550&format=interactive) ya está listo para embeberse e insertarse en un sitio web.  
 
+El recorrido de la seleccion de la tabla, la inserción del gráfico y la publicación puede usarse para cualquier tipo de gráfico. Esto es potente para complementar con múltiples gráficos una nota online.  
+
+Algunos ejemplo más: 
+
+Gráfico de barras
+
+![grafico-barras](../img/grafico-barras.png)
 
 #### Sugerencia periodística 
  - Buscar el porque de la cantidad de electores muy superior en algunas escuelas.
