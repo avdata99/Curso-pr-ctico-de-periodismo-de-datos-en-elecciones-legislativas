@@ -69,3 +69,5 @@ Plot.ly permite login con redes y es poco invasivo en cuanto a los permisos.
 
 Como diferencia de las anteriores permite exportar a HTML, esto hace posible descargar el gráfico completo como contenido estático de modo de usar esta visualización sin dependencia de la plataforma.
 
+[Ver gráfico de puntos descargado](export-plot-ly/escuelas-por-departamento.html).  
+![ploy-ly-scatter](../img/ploy-ly-scatter.png)
