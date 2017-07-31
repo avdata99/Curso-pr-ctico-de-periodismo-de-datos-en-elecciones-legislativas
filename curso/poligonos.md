@@ -31,5 +31,9 @@ La realidad del resto de la provincia de Córdoba es compleja. Más del 80% del 
 
 El recurso más aproximado que aparece son los puntos de _localidades censales_ de 2010 que se encuentra en el mismo GeoPortal de la Provincia de Córdoba: [SHP Localidades Censales 2010](http://estadistica.cba.gov.ar/LinkClick.aspx?fileticket=eEKeiKWrGvE%3d&tabid=696&language=es-AR).  
 
+El problema con este recurso es que las _localidades censales_ son más parecidas a una lista de asentamientos humanos que no diferencia las delimitaciones de ciudades o circuitos electorales.  
+
+
+
 
 
