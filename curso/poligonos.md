@@ -6,11 +6,15 @@ Para poner en mapas datos más agregados (por circuito o sección electoral) se 
 
 La secciones electorales (depratamentos) tienen una definición clara y están disponibles desde el [GeoPortal](http://estadistica.cba.gov.ar/Territorio/GeoPortal/tabid/564/language/es-AR/Default.aspx) de la Provincia de Córdoba.  
 
+![geoportal](../img/geoportal-home.png)
+
 El GeoPortal incluye muchos datos útiles, en este caso tienen [una sección](http://estadistica.cba.gov.ar/Territorio/GeoPortal/CapasProvincia/CapasGeneralesProvincia/CapasdePol%C3%ADticayAdministraci%C3%B3nProvincia/tabid/847/language/es-AR/Default.aspx) que inluye (entre otros datos útiles) los _poligonos_ de los departamentos de la Provincia.  
 
 El formato usado en general por el GeoPortal es el SHP ([_shapefile_](https://es.wikipedia.org/wiki/Shapefile)). Este formato es usado en ambientes técnicos y todavía no compatible con otras herramientas más simples de este curso.
 
 Los departamentos de Córdoba en SHP pueden descargarse desde [aquí](http://estadistica.cba.gov.ar/LinkClick.aspx?fileticket=A4SgYgeHpIc%3d&tabid=696&language=es-AR).  
+
+![geoportal-poligonos](../img/geoportal-poligonos.png)
 
 ### Circuitos electorales
 
