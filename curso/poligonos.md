@@ -39,7 +39,7 @@ El recurso más aproximado que aparece son los puntos de _localidades censales_ 
 
 El problema con este recurso es que las _localidades censales_ son más parecidas a una lista de asentamientos humanos que no diferencia las delimitaciones de ciudades o circuitos electorales.  
 
-Todos estos recursos son datos geoespaciales en diferentes formatos
+Todos estos recursos son datos geoespaciales en diferentes formatos. Vale la pena revisar las diferencias y alcances de cada uno en la [siguiente sección](formatos-geo.md)
 
 
 
