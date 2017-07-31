@@ -27,6 +27,7 @@ Es necesario o recomendable tener:
 #### Otros recursos geográficos
  - [IR](curso/poligonos.md). Buscar y visualizar polígonos de circuitos electorales
  - PENDIENTE. Formatos geo: KML, CSV WKT, SHP. Transformar con QGis.  
+ - [IR](curso/geolocalizar-circuitos.md). Geolocalizar Circuitos con datos aproximados.  
 
 #### Otros datos electorales
  - PENDIENTE. Lista de legisladores vigentes y nuevos candidatos. Cantidad de disputados en Córdoba. Que se elige y que bancas se renuevan. 
