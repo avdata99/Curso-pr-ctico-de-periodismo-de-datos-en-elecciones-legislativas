@@ -72,7 +72,10 @@ Como diferencia de las anteriores permite exportar a HTML, esto hace posible des
 [Ver gráfico de puntos descargado](export-plot-ly/escuelas-por-departamento.html).  
 ![plot-ly-scatter](../img/ploy-ly-scatter.png)
 
-Plot.ly permite graficos más estadístocos. Por ejemplo este _Box Plot_
+Plot.ly apunta a usuarios mas de perfíl estadístico. Además los gráficos por defecto tienen zoom, posibilidad de descarga en PNG y otros detalles interesantes.  
+Por ejemplo este _Box Plot_ de los electores por Departamento (_Sección_):  
 
 [Ver gráfico box plot](export-plot-ly/box-plot-electores-por-departamento.html).  
 ![box-plot-ly](../img/box-plot-ly.png)
+
+
