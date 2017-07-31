@@ -16,6 +16,12 @@ Los departamentos de Córdoba en SHP pueden descargarse desde [aquí](http://est
 
 ![geoportal-poligonos](../img/geoportal-poligonos.png)
 
+En el portal de Gobierno Abierto de la Ciudad de Córdoba se replica este datos y se agrega un mapa online y otros formatos más fáciles de reulizar.
+
+[Ir al recurso](https://gobiernoabierto.cordoba.gob.ar/data/datos-abiertos/categoria/datos-geograficos-y-mapas/departamentos-de-la-provincia-de-cordoba/214).  
+
+![departamentos-cordoba-portal-muni](../img/departamentos-cordoba-portal-muni.png)
+
 ### Circuitos electorales
 
 Los circuitos electorales de la provincia de Córdoba al parecer no están disponibles en formatos de polígonos en su totalidad.  
@@ -33,7 +39,7 @@ El recurso más aproximado que aparece son los puntos de _localidades censales_ 
 
 El problema con este recurso es que las _localidades censales_ son más parecidas a una lista de asentamientos humanos que no diferencia las delimitaciones de ciudades o circuitos electorales.  
 
-
+Todos estos recursos son datos geoespaciales en diferentes formatos
 
 
 
