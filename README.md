@@ -26,7 +26,7 @@ Es necesario o recomendable tener:
 
 #### Otros recursos geográficos
  - [IR](curso/poligonos.md). Buscar y visualizar polígonos de circuitos electorales
- - PENDIENTE. Formatos geo: KML, CSV WKT, SHP. Transformar con QGis.  
+ - [IR](curso/formatos-geo.md). Formatos geo: KML, CSV WKT, SHP. Transformar con QGis.  
  - [IR](curso/geolocalizar-circuitos.md). Geolocalizar Circuitos con datos aproximados.  
 
 #### Otros datos electorales
