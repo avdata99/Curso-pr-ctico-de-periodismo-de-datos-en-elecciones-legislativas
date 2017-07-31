@@ -63,3 +63,9 @@ Se puede ver online [aquí](https://datastudio.google.com/reporting/0B9saNutQ5ZY
 #### Pros y Contras
 Los gráficos de Google Spreadsheets son mejores para embeber, los de DataStudio son mejores para compartir como links externos.  
 
+### Con Plot.ly
+
+Plot.ly permite login con redes y es poco invasivo en cuanto a los permisos.  
+
+Como diferencia de las anteriores permite exportar a HTML, esto hace posible descargar el gráfico completo como contenido estático de modo de usar esta visualización sin dependencia de la plataforma.
+
