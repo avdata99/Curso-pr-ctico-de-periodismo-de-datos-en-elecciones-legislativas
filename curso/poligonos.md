@@ -27,7 +27,7 @@ A diferencia de la provincia incluye un mapa online y múltiples formatos más s
 La realidad del resto de la provincia de Córdoba es compleja. Más del 80% del territorio provincia no pertenece a ningún municipio y los territorios que si pertenecen se encuentran en disputas actualmente.
 
 [Ver más info](https://andresvazquez.com.ar/blog/los-municipios-de-cordoba-no-existen/)
-![municipios-de-cordoba](http://andresvazquez.com.ar/data/cordoba-argentina-segun-censo-2010/mapa/index/show/radios-municipales-DGC-2014/)
+![municipios-de-cordoba](https://andresvazquez.com.ar/blog/wp-content/uploads/2014/05/Selection_034.png)
 
 El recurso más aproximado que aparece son los puntos de _localidades censales_ de 2010 que se encuentra en el mismo GeoPortal de la Provincia de Córdoba: [SHP Localidades Censales 2010](http://estadistica.cba.gov.ar/LinkClick.aspx?fileticket=eEKeiKWrGvE%3d&tabid=696&language=es-AR).  
 
