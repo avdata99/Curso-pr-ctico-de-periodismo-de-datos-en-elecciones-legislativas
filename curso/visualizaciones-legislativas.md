@@ -15,3 +15,9 @@ Ver ejemplos:
 Visualización de ciudades y partidos de [el Pais en 2015](https://elpais.com/elpais/2015/12/18/media/1450462864_878758.html).  
 
 ![viz-conectados-circuitos-y-partidos](../img/viz-conectados-circuitos-y-partidos.png)
+
+
+Con código
+D3 Hemicilio simple: http://bl.ocks.org/tomgp/9212008  
+D3 Hemicilio con íconos: http://bl.ocks.org/michalskop/2e2a2aed537d1a5f03c3  
+Posible referencia: http://olcreativa.lanacion.com.ar/dev/test/votaciones/  
