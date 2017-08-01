@@ -30,6 +30,7 @@ Es necesario o recomendable tener:
  - [IR](curso/geolocalizar-circuitos.md). Geolocalizar Circuitos con datos aproximados.  
 
 #### Otros datos electorales
+ - [IR](curso/visualizaciones-legislativas.md). Visualizaciones legislativas.
  - PENDIENTE. Lista de legisladores vigentes y nuevos candidatos. Cantidad de disputados en Córdoba. Que se elige y que bancas se renuevan. 
  - PENDIENTE. Como se publican los resultados electorales
  - Hemiciclos y visualizaciones de cuerpos representativos.
