@@ -33,6 +33,6 @@ Es un formato de archivo propietario de datos espaciales desarrollado por la com
 [Ver más en Wikipedia](https://es.wikipedia.org/wiki/Shapefile)
 
 ### GeoJSON
-Es un archivo de texto que cumple con las normas JSON pero que incluye datos espaciales.
- sobre GeoJSON](http://geojson.org/)
+Es un archivo de texto que cumple con las normas JSON pero que incluye datos espaciales.  
+[Ver más sobre GeoJSON](http://geojson.org/).  
 ![json-sample](../img/json-sample.png)
