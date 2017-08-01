@@ -25,8 +25,8 @@ Es necesario o recomendable tener:
  - [IR](curso/geolocalizar-csv.md). Geolocalizar escuelas sin coordenadas. Fusion Tables, MyMaps Carto.
 
 #### Otros recursos geográficos
- - [IR](curso/poligonos.md). Buscar y visualizar polígonos de circuitos electorales
  - [IR](curso/formatos-geo.md). Formatos geo: KML, CSV WKT, SHP. Transformar con QGis.  
+ - [IR](curso/poligonos.md). Buscar y visualizar polígonos de circuitos electorales
  - [IR](curso/geolocalizar-circuitos.md). Geolocalizar Circuitos con datos aproximados.  
 
 #### Otros datos electorales
