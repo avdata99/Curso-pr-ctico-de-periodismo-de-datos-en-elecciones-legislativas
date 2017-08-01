@@ -11,3 +11,7 @@ Ver ejemplos:
 [Hemicilo LNData](http://especiales.lanacion.com.ar/multimedia/proyectos/15/elecciones/hemiciclo_elecciones_2015/index.html).  
 
 ![hemiciclo-lndata-2015](../img/hemiciclo-lndata-2015.png)
+
+Visualización de ciudades y partidos de [el Pais en 2015](https://elpais.com/elpais/2015/12/18/media/1450462864_878758.html).  
+
+![viz-conectados-circuitos-y-partidos](../img/viz-conectados-circuitos-y-partidos.png)
