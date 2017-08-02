@@ -69,13 +69,17 @@ Plot.ly permite login con redes y es poco invasivo en cuanto a los permisos.
 
 Como diferencia de las anteriores permite exportar a HTML, esto hace posible descargar el gráfico completo como contenido estático de modo de usar esta visualización sin dependencia de la plataforma.
 
-[Ver gráfico de puntos descargado](export-plot-ly/escuelas-por-departamento.html).  
+[Ver diagrama de dispersion](export-plot-ly/escuelas-por-departamento.html).  
 ![plot-ly-scatter](../img/ploy-ly-scatter.png)
 
 Plot.ly apunta a usuarios mas de perfíl estadístico. Además los gráficos por defecto tienen zoom, posibilidad de descarga en PNG y otros detalles interesantes.  
-Por ejemplo este _Box Plot_ de los electores por Departamento (_Sección_):  
+Por ejemplo este [_Box Plot_o _diagrama de cajas](https://es.wikipedia.org/wiki/Diagrama_de_caja) de los electores por Departamento (_Sección_):  
 
 [Ver gráfico box plot](export-plot-ly/box-plot-electores-por-departamento.html).  
 ![box-plot-ly](../img/box-plot-ly.png)
+
+Pequeños detalles a destacar de plot.ly. 
+ - En los diagramas de cajas calcula automáticamente los _quartiles_ (a diferencia de drive que pide estos valores).  
+ - En los [_diagramas de dispersion_](https://es.wikipedia.org/wiki/Diagrama_de_dispersi%C3%B3n) plot.ly no exige que ambos ejes sean numéricos. Podemos usar valores de texto y serán interpretados como _categorías_. 
 
 
