@@ -23,6 +23,7 @@ Es necesario o recomendable tener:
  - [IR](curso/carta-marina-Cordoba.md). Pasar la Carta Marina de PDF a Excel o CSV con Tabula PDF.   
  - [IR](curso/publicar-tablas-y-graficos.md). Publicar tablas y gráficos. Ejemplo sobre analisis de las escuelas con mayor y menor cantidad de electores. 
  - [IR](curso/geolocalizar-csv.md). Geolocalizar escuelas sin coordenadas. Fusion Tables, MyMaps Carto.
+ - [IR](curso/conectar-datos.md). Conectar datos de dos tablas similares.
 
 #### Otros recursos geográficos
  - [IR](curso/formatos-geo.md). Formatos geo: KML, CSV WKT, SHP. Transformar con QGis.  
