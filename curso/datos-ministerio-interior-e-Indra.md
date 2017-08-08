@@ -26,6 +26,7 @@ Luego seleccionamos las celdas con texto y usamos la funcionalidad de _Dividir t
 
 ![dato-texto-02-indra](../img/dato-texto-02-indra.png)
 
+**Nota para todos los datos:** El código 999 se refiere a totales provinciales.  
 
 #### Ámbitos electorales
 
@@ -138,3 +139,5 @@ Cómo se ve todavía el dato no está erminado y son datos de prueba.
 ## Trabajo terminado abierto
 
 Finalmente todo este proceso [esta libre y disponible en Google Drive](https://docs.google.com/spreadsheets/d/1k8fHbUGyQo5NzW46C2RD1N_Jk9QRcUJHRf8Dh_gP5Do/edit?usp=sharing).  
+
+[>> Continuar con el análisis y la visualización de estos datos >>](analizar-datos-ministerio-interior-e-Indra.md)
