@@ -63,6 +63,8 @@ automáticamente cuando los datos cambien.
 
 Con las herramientas [usadas para publicar y visualizar planillas](https://avdata99.github.io/Curso-practico-de-periodismo-de-datos-en-elecciones-legislativas/curso/publicar-tablas-y-graficos.html) es posible publicar en tiempo real esta tabla y un gráfico.  
 
+![viz-resultados-01](../img/viz-resultados-01.png)
+
 ```
 Probar en la lista original de resultados y ver como se reordena la lista y se actualizan los gráficos. 
 ```
