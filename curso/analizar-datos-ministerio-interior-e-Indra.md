@@ -1,6 +1,6 @@
 ## Analizando los resultados de la elección
 
-Luego de [procesar los datos de la elección](analizar-datos-ministerio-interior-e-Indra.md) es el momento de ordenar estos datos y visualizarlos.  
+Luego de [procesar los datos de la elección](datos-ministerio-interior-e-Indra.md) es el momento de ordenar estos datos y visualizarlos.  
 
 ### Resultados totales provincia por lista
 
