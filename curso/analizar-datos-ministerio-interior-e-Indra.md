@@ -11,8 +11,10 @@ nos interesan. Los datos de interés son los que tienen el código _999_ en la h
 de _totales listas 04_.  
 
 ```
-Es importante replicar las celdas y no _copiar y pegar_ para que cuando actualicemos 
-los datos en la hoja de origen todo lo que hagamos quede actualziado automáticamente.  
+Es importante replicar las celdas y no 
+_copiar y pegar_ para que cuando actualicemos 
+los datos en la hoja de origen todo lo que 
+hagamos quede actualziado automáticamente.  
 ```
 
 En un primer paso los datos deben verse así
@@ -66,5 +68,6 @@ Con las herramientas [usadas para publicar y visualizar planillas](https://avdat
 ![viz-resultados-01](../img/viz-resultados-01.png)
 
 ```
-Probar en la lista original de resultados y ver como se reordena la lista y se actualizan los gráficos. 
+Probar en la lista original de resultados y ver 
+como se reordena la lista y se actualizan los gráficos. 
 ```
