@@ -56,7 +56,7 @@ Al igual que el anterior agregamos _?raw=true_ al final para poder llevarlo a un
 3;04;004;00159;00101;06352;00049037;00026358;05375;08419;00031309;06385;00022837;08664;00019974;07578;00002863;01086;00001270;00482;00002251;00854;07;29;14;20;
 3;04;005;00090;00072;08000;00028384;00019032;06705;08454;00022512;07931;00016502;08671;00014433;07584;00002069;01087;00000920;00483;00001610;00846;07;29;13;45;
 ```
-Según el documento se indica que los campos 
+Según el documento se indica que los campos: 
 
 |DESCRIPCIÓN | LONGITUD|
 |------------|---------|
@@ -85,6 +85,8 @@ Según el documento se indica que los campos
 |Día | 2|
 |Hora | 2|
 |Minuto | 2|
+
+La _Longitud_ es la cantidad de caractares (letras) que el campo de la tabla podrá tener. Es un método que usaban nuestros **ancestros** para optimizar el espacio en disco de los datos.  
 
 Tip: Una forma fácil de usar estos datos como titulos de las columnas es copiar la tabla, pegarla Google Drive, volver a copiarla y hacer el pegado especial que se llama _Pegado con transposición de datos_. Esto transforma filas en columnas.  
 
@@ -117,3 +119,22 @@ todas las veces que sean necesarias para mostrar las agrupaciones internas que c
 Haciendo el mismo proceso con el archivo de [_totales por listas_ para Córdoba](https://github.com/avdata99/datos-indra-dia-eleccion-paso-2017-AR/blob/master/recursos/DATOS-MUESTRA-2017-08-01/DATOS_89822634/totaleslistas_04.csv) se debe llegar a esta lista:  
 
 ![totales-listas-04-indra](../img/totales-listas-04-indra.png)
+
+#### Listas participantes
+
+Así como la de ámbitos se liberan las listas de todas las agrupaciones participantes.  
+Este archivo puede usarse como dato accesorio para ponerle nombre a los datos anteriores.  
+
+Al igual que los demas datos es necesario descargar [este archivo](https://github.com/avdata99/datos-indra-dia-eleccion-paso-2017-AR/blob/master/recursos/DATOS-MUESTRA-2017-08-01/generales_00/listas_00.csv) y pasarlo a Google Drive.  
+
+Según la documentación, las tres columnas representan _Codigo, Siglas y Denominación_.  
+Debe quedar así:
+
+![listas](../img/listas.png)
+
+Cómo se ve todavía el dato no está erminado y son datos de prueba.  
+
+
+## Trabajo terminado abierto
+
+Finalmente todo este proceso [esta libre y disponible en Google Drive](https://docs.google.com/spreadsheets/d/1k8fHbUGyQo5NzW46C2RD1N_Jk9QRcUJHRf8Dh_gP5Do/edit?usp=sharing).  
