@@ -71,3 +71,5 @@ Con las herramientas [usadas para publicar y visualizar planillas](https://avdat
 Probar en la lista original de resultados y ver 
 como se reordena la lista y se actualizan los gráficos. 
 ```
+
+[>> Continuar con el cálculo de bancas con D'Hont >>](dont.md)
