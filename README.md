@@ -35,6 +35,7 @@ Es necesario o recomendable tener:
  - [IR](curso/visualizaciones-legislativas.md). Visualizaciones legislativas.
  - PENDIENTE. Lista de legisladores vigentes y nuevos candidatos. Cantidad de disputados en Córdoba. Que se elige y que bancas se renuevan. 
  - [IR](curso/datos-ministerio-interior-e-Indra.md). Como se publica el Ministerio del Interior los resultados electorales.
+ - [IR](curso/analizar-datos-ministerio-interior-e-Indra.md). Analizar, ordenar y visualizar los datos del Ministerio del Interior.
  - Hemiciclos y visualizaciones de cuerpos representativos.
  - PENDIENTE. Sistema D'Hont. Probabilidades según encuestas de bancas a ocupar.
  - PENDIENTE. Cruzar datos geo con planillas de datos (resultados electorales como ejemplo).
