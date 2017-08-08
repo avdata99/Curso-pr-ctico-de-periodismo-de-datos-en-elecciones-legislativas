@@ -10,8 +10,10 @@ celda que deseamos replicar aunque esté en otra hoja) la parte de los datos que
 nos interesan. Los datos de interés son los que tienen el código _999_ en la hoja 
 de _totales listas 04_.  
 
+```
 Es importante replicar las celdas y no _copiar y pegar_ para que cuando actualicemos 
 los datos en la hoja de origen todo lo que hagamos quede actualziado automáticamente.  
+```
 
 En un primer paso los datos deben verse así
 ![viz-resultado-provincial-por-listas](../img/viz-resultado-provincial-por-listas.png)
