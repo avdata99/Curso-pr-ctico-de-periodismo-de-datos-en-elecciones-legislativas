@@ -121,3 +121,18 @@ Note los signos _$_ y luego estire la funcion hasta la novena banca.
 
 ![dhont-05](../img/dhont-05.png)
 
+#### Totales de bancas por agrupación
+
+Finalmente podemos saber el total de bancas por agrupación podemos en una hoja 
+nueva. Para esto replicamos (siempre igualando) la lista de agrupaciones en una columna.  
+
+En una columna lateral _total de bancas_ usamos la función _COUNTIF_ que permite **contar** 
+elementos que se repiten en una lista. El primer parámetro es el rango, el segundo el valor buscado.  
+
+Note y comprenda la necesidad del signo _$_.  
+
+```
+=countif(N$2:N$10;M14)
+```
+
+![dhont-06](../img/dhont-06.png)
