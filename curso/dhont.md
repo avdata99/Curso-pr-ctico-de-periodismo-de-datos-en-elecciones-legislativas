@@ -2,7 +2,7 @@
 
 Luego de [ordenar los datos de la elección](analizar-datos-ministerio-interior-e-Indra.md) es el momento de ordenar estos datos y visualizarlos. 
 
-Podemos tener los resultados en D'Hont en tiempo real calculados solo convinando fórmulas de Google Drive.  
+Podemos tener los resultados en D'Hont en tiempo real calculados solo combinando fórmulas de Google Drive.  
 El primer paso es replicar (igualar) en una nueva hoja de nuestro documento los votos 
 finales y el nombre de cada agrupación:  
 
