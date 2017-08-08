@@ -37,7 +37,7 @@ Es necesario o recomendable tener:
  - [IR](curso/datos-ministerio-interior-e-Indra.md). Como se publica el Ministerio del Interior los resultados electorales.
  - [IR](curso/analizar-datos-ministerio-interior-e-Indra.md). Analizar, ordenar y visualizar los datos del Ministerio del Interior.
  - Hemiciclos y visualizaciones de cuerpos representativos.
- - PENDIENTE. Sistema D'Hont. Probabilidades según encuestas de bancas a ocupar.
+ - [IR](dhont.md). Sistema D'Hont. Procesar datos y bancas ganadas.
  - PENDIENTE. Cruzar datos geo con planillas de datos (resultados electorales como ejemplo).
  - PENDIENTE. Que es un Fraudómetro?
  
