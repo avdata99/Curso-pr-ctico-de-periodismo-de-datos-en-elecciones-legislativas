@@ -49,5 +49,75 @@ Debe quedar así:
 
 ![viz-resultado-provincial-por-listas-03](../img/viz-resultado-provincial-por-listas-03.png)
 
+Es necesario ordenar estos datos según la cantidad de votos que irá cambiando durante el día 
+de la elección. Para es útil la función _sort_.   
 
+Debajo de la lista anterior podemos poner la fórmula: 
+
+```
+=sort(A2:E12;2;FALSE)
+```
+
+Se generará automáticamente una nueva lista con los datos ordenados. Estos se actualizarán 
+automáticamente cuando los datos cambien.  
+
+Con las herramientas [usadas para publicar y visualizar planillas](https://avdata99.github.io/Curso-practico-de-periodismo-de-datos-en-elecciones-legislativas/curso/publicar-tablas-y-graficos.html) es posible publicar en tiempo real esta tabla y un gráfico.  
+
+```
+Probar en la lista original de resultados y ver como se reordena la lista y se actualizan los gráficos. 
+```
+
+#### D'Hont
+
+Podemos tener los resultados en D'Hont en tiempo real calculados solo convinando fórmulas de Google Drive.  
+El primer paso es replicar (igualar) en una nueva hoja de nuestro documento los votos 
+finales y el nombre de cada agrupación:  
+
+![dhont-01](../img/dhont-01.png)
+
+En segunda instancia, aplicando la metodología del sistema _D'Hont_ obtenemos los cocientes.  
+Nótese nuevamente el signo _$_ para extender la fórmula horizontal (hasta la cantidad 
+de bancas a cubrir) y verticalmente.  
+
+```
+=$A2/C$1
+```
+
+![dhont-02](../img/dhont-02.png)
+
+
+A continuación vamos a hacer algo extraño pero que:
+ - evitar necesitar un programador para el cálculo
+ - se va a entener mejor en los próximos pasos
+
+Replicaremos (igualando) las celdas con los nombres de las agrupaciones 9 veces hacia abajo.  
+Tambien replicaremos (igualndo) los valores de cada una de las nueve columnas.  
+
+Se verá así (los colores no son necesarios, solo explicativos).  
+
+![dhont-03](../img/dhont-03.png)
+
+Ahora agregamos nuestra tabla de resumen a la derecha donde quedarán listadas las 
+agrupaciones en posición de obtener la banca.  
+
+La función _LARGE_ nos da los valores máximos o mínimos en el orden que 
+necesitamos
+
+```
+=large(A$2:A$100;L2)
+```
+Note los signos _$_ y luego estire la funcion hasta la novena banca.  
+
+![dhont-04](../img/dhont-04.png)
+
+A continuación, usando la función _LOOKUP_ 
+**que sólo busca en la primera columna de un rango dado** es posible saber a que partido le 
+corresponde un coeficiente.
+
+```
+=VLOOKUP(M2-0;A$2:B$100;2;FALSE)
+```
+Note los signos _$_ y luego estire la funcion hasta la novena banca.  
+
+![dhont-05](../img/dhont-05.png)
 
