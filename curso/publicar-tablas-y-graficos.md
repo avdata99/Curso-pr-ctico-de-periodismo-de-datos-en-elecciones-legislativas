@@ -6,7 +6,7 @@ Las planillas de cálculo locales (Excel o Open/LibreOffice) permiten siempre ha
 
 Esta característica nos permite tener gráficos listos para embeber en un medio online muy rápido. Esto funciona no solo para gráficos sino que incluye tablas de datos (útiles para mostrar junto a los datos).  
 
-Como ejemplo vamos a tomar [la planilla que acompaña este curso de escuelas y electores por circuito geolocalizada(../recursos/escuelas-elecciones-2015-cordoba-FINAL-CON-GEO.csv).   
+Como ejemplo vamos a tomar [la planilla que acompaña este curso de escuelas y electores por circuito geolocalizada](../recursos/escuelas-elecciones-2015-cordoba-FINAL-CON-GEO.csv).   
 
 Vamos a _publicar_ (tabla y gráficos) una lista de las 20 escuelas con más electores.  
 Para esto ordenamos la planilla por _Electores_ de mayor a menor.  
