@@ -82,4 +82,6 @@ Pequeños detalles a destacar de plot.ly.
  - En los diagramas de cajas calcula automáticamente los _quartiles_ (a diferencia de drive que pide estos valores).  
  - En los [_diagramas de dispersion_](https://es.wikipedia.org/wiki/Diagrama_de_dispersi%C3%B3n) plot.ly no exige que ambos ejes sean numéricos. Podemos usar valores de texto y serán interpretados como _categorías_. 
 
+### Otras formas a analizar
 
+Usar App Script para hacer un sitio con D3 que consuma los datos de la planilla: [aquí](http://www.benlcollins.com/spreadsheets/d3-google-sheets/)

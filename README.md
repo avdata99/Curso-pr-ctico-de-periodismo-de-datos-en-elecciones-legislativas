@@ -41,6 +41,12 @@ Es necesario o recomendable tener:
  - PENDIENTE. Cruzar datos geo con planillas de datos (resultados electorales como ejemplo).
  - PENDIENTE. Que es un Fraudómetro?
  
+Faltan documentar:
 
+ - Tabla dinámica final de resultados
+ - Agregar cuatro visualizaciones en vivo con apilados (normal y al 100%) por departamento y por agrupacion
+ - Fabricar centroides desde polígonos con QGis
+ - Llevar los centroides hasta el Drive y conectar (crear una nueva tabla de ámbitos Córdoba geolocalizada)
+ - Hacer una planilla nueva para resultados por departamentos geolocalizadoa
  
  
